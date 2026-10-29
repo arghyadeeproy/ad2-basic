@@ -1,0 +1,6 @@
+.contact { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+.contact__card { display: block; padding: 1.6rem; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); text-decoration: none; transition: border-color .2s; }
+.contact__card:hover { border-color: var(--ember); }
+.contact__card small { display: block; color: var(--mute); margin-bottom: .3rem; }
+.contact__card strong { font-size: 1.1rem; overflow-wrap: anywhere; }
+@media (max-width: 860px) { .contact { grid-template-columns: 1fr; } }

@@ -1,0 +1,23 @@
+:root {
+  /* Palette – taken from the hero video */
+  --bg: #080403;
+  --panel: #140a07;
+  --line: #3a1a10;
+  --ember: #ff4a1c;
+  --glow: #ff9a3c;
+  --gold: #ffd166;
+  --cyan: #3fd8e6;
+  --text: #f6ece5;
+  --mute: #b8a094;
+
+  /* Type */
+  --font-display: 'Unbounded', 'Arial Black', sans-serif;
+  --font-body: 'Manrope', 'Segoe UI', Arial, sans-serif;
+
+  /* Layout */
+  --container: 1180px;
+  --radius: 18px;
+  --nav-h: 76px;
+
+  color-scheme: dark;
+}

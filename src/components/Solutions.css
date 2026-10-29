@@ -1,0 +1,6 @@
+.solutions { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+.solutions__industries { color: var(--mute); font-size: 1.05rem; }
+.solutions__industries strong { color: var(--text); }
+.solutions__list { display: grid; grid-template-columns: 1fr 1fr; gap: .2rem 2rem; margin: 0; padding: 0; list-style: none; }
+.solutions__list li { padding: .7rem 0; border-bottom: 1px solid var(--line); font-weight: 500; }
+@media (max-width: 860px) { .solutions { grid-template-columns: 1fr; gap: 2.5rem; } .solutions__list { grid-template-columns: 1fr; } }

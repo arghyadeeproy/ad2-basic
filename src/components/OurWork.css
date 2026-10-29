@@ -1,0 +1,10 @@
+.work { text-align: center; background: radial-gradient(70% 90% at 50% 120%, #ff4a1c55, transparent 70%), var(--panel); border-block: 1px solid var(--line); }
+.work h2, .work .section__sub { margin-inline: auto; max-width: none; }
+.work__badge { display: inline-flex; align-items: center; gap: .7rem; padding: .7rem 1.4rem; border: 1px solid var(--ember); border-radius: 999px; color: var(--gold); font: 500 .95rem var(--font-display); }
+.work__badge i { width: 10px; height: 10px; border-radius: 50%; background: var(--ember); box-shadow: 0 0 12px var(--ember); animation: pulse 1.8s ease-in-out infinite; }
+@keyframes pulse { 50% { opacity: .25; } }
+.work__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.25rem; text-align: left; margin-top: 2rem; }
+.work__item { margin: 0; border-radius: var(--radius); overflow: hidden; background: var(--bg); border: 1px solid var(--line); }
+.work__item img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.work__item figcaption { padding: 1rem 1.2rem; font-weight: 700; }
+.work__item span { display: block; color: var(--mute); font-weight: 400; font-size: .9rem; }

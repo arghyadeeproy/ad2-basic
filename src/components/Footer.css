@@ -1,0 +1,2 @@
+.footer { padding: 2.5rem 0 calc(2.5rem + env(safe-area-inset-bottom, 0)); border-top: 1px solid var(--line); color: var(--mute); font-size: .9rem; }
+.footer__bar { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; }
